@@ -1,3 +1,13 @@
+"""
+Program: scraper.py
+Author: Daniel Meeker
+Date: 6/30/2020
+
+This program takes in a URL and scrapes the information from it
+and writes the HTML code to two different files. One of the files
+is all on one line while the other is formatted to be more human
+readable.
+"""
 import requests
 import bs4
 
